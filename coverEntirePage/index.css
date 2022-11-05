@@ -1,0 +1,27 @@
+/* 
+  - covering the entire page with transparent black color
+  - set width and add space just by using calc function
+*/
+main {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.popup-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: grid;
+  place-items: center;
+}
+.popup-container>p {
+  background-color: white;
+  width: calc(100% - 4rem);
+  height: 8rem;
+  border-radius: 8px;
+  display: grid;
+  place-items: center;
+}
