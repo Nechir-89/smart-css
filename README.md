@@ -1,4 +1,4 @@
-# smart-css
+# smart-css (Notes)
 
 ### CSS Break Points
 - Mobile devices: 320-480 PXs
