@@ -21,3 +21,12 @@
 to point the last elemetn or first element in the container, they should be very first or last elemetn in the container
 [For Example](https://stackoverflow.com/questions/18995362/last-child-not-working-as-expected)
 
+
+### Important CSS Functions
+- min(
+- max(50%, 300px) /*when element in a row next to other elements gets less than 50% then turn it to 300px as the minimum value*/
+- clamp(min value, prefered value, max value)
+- calc(math calculation)
+
+### Resources
+- [Using the CSS Numeric Functions - min, max, calc, clamp, and minmax](https://www.youtube.com/watch?v=6QwMvf1Jq0M)
